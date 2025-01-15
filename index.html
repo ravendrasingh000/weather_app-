@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-section">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather-details">
+            <img src="images/rain.png" class="weather-image">
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">Banglore</h2>
+
+            <div class="humadity-wind">
+                <div class="humadity">
+                    <img src="images/humidity.png" >
+                    <div>
+                        <p class="humadityNum">40%</p>
+                        <p class="text">humadity</p>
+                    </div>
+                </div>
+    
+                <div class="wind">
+                    <img src="images/wind.png" >
+                    <div>
+                        <p class="windNum">50 km/h</p>
+                        <p class="text">wind speed</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+        
+    </div>
+</body>
+</html>
